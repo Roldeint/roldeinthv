@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portafolio – Roldeint David Jiménez Osorio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Iconos -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- Fuente -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        sans-serif;
+      background: #f3f4f6;
+    }
+    .gradient-ms {
+      background: radial-gradient(circle at top left, #60a5fa, #1d4ed8 40%, #020617);
+    }
+    .glass {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+
+<body class="text-slate-900">
+
+  <!-- ========================================================= -->
+  <!--                         HEADER / HERO                     -->
+  <!-- ========================================================= -->
+  <header class="gradient-ms text-white">
+    <div class="max-w-5xl mx-auto px-6 py-10 md:py-16">
+
+      <!-- NAV -->
+      <nav class="flex items-center justify-between mb-10">
+        <div class="flex items-center gap-2">
+          <div class="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center">
+            <i class="fa-solid fa-bolt text-sky-300"></i>
+          </div>
+          <span class="font-semibold tracking-tight">Portafolio Profesional IA</span>
+        </div>
+        <div class="hidden md:flex gap-6 text-sm text-slate-100/80">
+          <a href="#sobre-mi" class="hover:text-white">Sobre mí</a>
+          <a href="#servicios" class="hover:text-white">Servicios</a>
+          <a href="#experiencia" class="hover:text-white">Experiencia</a>
+          <a href="#proyectos" class="hover:text-white">Proyectos</a>
+          <a href="#habilidades" class="hover:text-white">Habilidades</a>
+          <a href="#contacto" class="hover:text-white">Contacto</a>
+        </div>
+      </nav>
+
+      <!-- HERO -->
+      <div class="grid md:grid-cols-[1.8fr,1.2fr] gap-10 items-center">
+
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full bg-black/20 px-3 py-1 text-xs font-medium mb-4">
+            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+            Disponible para roles en IA, Automatización y M365
+          </div>
+
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+            Roldeint David <br>
+            <span class="text-sky-300">Jiménez Osorio</span>
+          </h1>
+
+          <p class="mt-3 text-sky-100 text-base md:text-lg">
+            Ingeniero de Sistemas · Profesional en Inteligencia Artificial & Automatización · Seguridad de la Información
+          </p>
+
+          <p class="mt-4 text-sm md:text-base text-slate-100/90 max-w-xl">
+            Más de 7 años de experiencia integrando IA, Microsoft 365, ServiceDesk Plus y ADManager
+            para automatizar procesos, fortalecer la seguridad y mejorar la eficiencia operativa.
+          </p>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="mailto:roldeint.jimenez99@gmail.com"
+              class="inline-flex items-center gap-2 bg-sky-500 hover:bg-sky-400 text-white text-sm font-medium px-4 py-2 rounded-lg transition">
+              <i class="fa-solid fa-paper-plane text-xs"></i> Contactar
+            </a>
+
+            <a href="https://co.linkedin.com/in/roldeint-david-j-b6ba68146"
+              target="_blank"
+              class="inline-flex items-center gap-2 border border-sky-300/70 text-sky-100 hover:bg-white/10 text-sm font-medium px-4 py-2 rounded-lg transition">
+              <i class="fab fa-linkedin text-sm"></i> LinkedIn
+            </a>
+
+            <a href="https://wa.me/qr/PVQ5MKOPYIK3H1"
+              target="_blank"
+              class="inline-flex items-center gap-2 border border-emerald-300/80 text-emerald-100 hover:bg-white/10 text-sm font-medium px-4 py-2 rounded-lg transition">
+              <i class="fab fa-whatsapp text-sm"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD PERFIL -->
+        <div class="glass rounded-2xl p-6 shadow-lg border border-white/10">
+          <div class="flex flex-col items-center">
+
+            <div class="w-24 h-24 rounded-full border-4 border-sky-400/80 overflow-hidden mb-4 bg-slate-800">
+              <img src="profile-pic.jpg" alt="Foto de perfil" class="w-full h-full object-cover" />
+            </div>
+
+            <p class="text-xs uppercase tracking-[0.2em] text-sky-300 mb-2">Rol actual</p>
+            <p class="text-sm font-semibold text-white text-center">
+              Ingeniero IT – Especialista en IA, Automatización & Seguridad
+            </p>
+          </div>
+
+          <div class="mt-5 border-t border-slate-600/70 pt-4 text-xs text-slate-200 space-y-2">
+            <p><i class="fa-solid fa-location-dot mr-2 text-sky-300"></i> Bogotá, Colombia</p>
+            <p><i class="fa-solid fa-shield-halved mr-2 text-emerald-300"></i> ISO 27001 – Auditor / Implementador</p>
+            <p><i class="fa-solid fa-diagram-project mr-2 text-indigo-300"></i> Especialista en automatización ARCF-3901 / 3903</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ========================================================= -->
+  <!--                         CONTENIDO                         -->
+  <!-- ========================================================= -->
+  <main class="max-w-5xl mx-auto px-6 py-10 space-y-12">
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+      <h2 class="text-xl font-semibold text-slate-900 flex items-center gap-2">
+        <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span> Sobre mí
+      </h2>
+
+      <p class="mt-4 text-sm md:text-base text-slate-700 leading-relaxed">
+        Ingeniero de Sistemas con experiencia en infraestructura, automatización de procesos,
+        seguridad de la información y administración de plataformas Microsoft 365.
+      </p>
+
+      <p class="mt-3 text-sm md:text-base text-slate-700 leading-relaxed">
+        Especializado en crear soluciones basadas en <strong>Inteligencia Artificial aplicada</strong> para mejorar
+        la operación TI, integrar asistentes conversacionales, automatizar documentación y optimizar
+        la gestión del ciclo de vida de usuarios.
+      </p>
+
+      <p class="mt-3 text-sm md:text-base text-slate-700 leading-relaxed">
+        He liderado proyectos con ServiceDesk Plus, ADManager Plus, Power Apps, Power Automate,
+        Endpoint Central y Microsoft Copilot Studio, integrando automatizaciones inteligentes
+        para áreas como TI, Recursos Humanos, Seguridad y Auditoría.
+      </p>
+    </section>
+
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+      <h2 class="text-xl font-semibold text-slate-900 flex items-center gap-2">
+        <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span> Servicios Profesionales
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-6 text-sm">
+        <div class="border border-slate-200 rounded-xl p-5 hover:shadow-md transition">
+          <h3 class="font-semibold mb-2">🤖 IA & Automatización</h3>
+          <ul class="space-y-1 text-slate-700">
+            <li>Agentes IA con Copilot Studio</li>
+            <li>Integración con IA generativa</li>
+            <li>Automatización de documentación</li>
+            <li>Bots internos de soporte TI</li>
+          </ul>
+        </div>
+
+        <div class="border border-slate-200 rounded-xl p-5 hover:shadow-md transition">
+          <h3 class="font-semibold mb-2">⚙️ Automatización Corporativa</h3>
+          <ul class="space-y-1 text-slate-700">
+            <li>SDP + ADManager</li>
+            <li>PowerShell avanzado</li>
+            <li>Graph API, REST API</li>
+            <li>Procesos ITSM</li>
+          </ul>
+        </div>
+
+        <div class="border border-slate-200 rounded-xl p-5 hover:shadow-md transition">
+          <h3 class="font-semibold mb-2">🔐 Seguridad & Compliance</h3>
+          <ul class="space-y-1 text-slate-700">
+            <li>ISO 27001</li>
+            <li>Hardening</li>
+            <li>Gestión de accesos</li>
+            <li>Auditorías internas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- RESULTADOS -->
+    <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+      <h2 class="text-xl font-semibold flex items-center gap-2 text-slate-900">
+        <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span>
+        Resultados de Impacto
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-6">
+        <div class="p-5 border rounded-xl shadow-sm bg-sky-50">
+          <p class="text-4xl font-bold text-sky-600">+70%</p>
+          <p class="text-sm mt-1 text-slate-700">Aumento en eficiencia del onboarding.</p>
+        </div>
+
+        <div class="p-5 border rounded-xl shadow-sm bg-sky-50">
+          <p class="text-4xl font-bold text-sky-600">-65%</p>
+          <p class="text-sm mt-1 text-slate-700">Reducción en tiempos de creación de cuentas.</p>
+        </div>
+
+        <div class="p-5 border rounded-xl shadow-sm bg-sky-50">
+          <p class="text-4xl font-bold text-sky-600">0 errores</p>
+          <p class="text-sm mt-1 text-slate-700">Tras implementar validaciones automáticas IA.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- STACK TECNOLOGICO -->
+    <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+      <h2 class="text-xl font-semibold flex items-center gap-2 text-slate-900">
+        <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span>
+        Stack Tecnológico
+      </h2>
+
+      <div class="mt-6 grid md:grid-cols-4 gap-4 text-sm">
+        <div class="border p-3 rounded-xl shadow-sm text-center">
+          <i class="fab fa-microsoft text-2xl text-sky-600"></i>
+          <p class="font-medium mt-2">Microsoft 365</p>
+        </div>
+
+        <div class="border p-3 rounded-xl shadow-sm text-center">
+          <i class="fa-solid fa-brain text-2xl text-sky-600"></i>
+          <p class="font-medium mt-2">IA Generativa</p>
+        </div>
+
+        <div class="border p-3 rounded-xl shadow-sm text-center">
+          <i class="fab fa-python text-2xl text-sky-600"></i>
+          <p class="font-medium mt-2">Python</p>
+        </div>
+
+        <div class="border p-3 rounded-xl shadow-sm text-center">
+          <i class="fa-solid fa-gears text-2xl text-sky-600"></i>
+          <p class="font-medium mt-2">Automatización</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+      <h2 class="text-xl font-semibold text-slate-900 flex items-center gap-2">
+        <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span> Experiencia Laboral
+      </h2>
+
+      <!-- ACTUAL -->
+      <div class="mt-5 border-l-2 border-sky-500 pl-4">
+        <div class="flex items-center justify-between flex-wrap gap-2">
+          <h3 class="font-semibold text-slate-900">Ingeniero IT – IA & Automatización</h3>
+          <span class="text-xs bg-sky-100 text-sky-700 px-2 py-1 rounded-full">2022 – Actual · Canacol Energy</span>
+        </div>
+        <ul class="mt-3 text-sm text-slate-700 space-y-1.5">
+          <li>Implementación de automatizaciones inteligentes IA en procesos ITSM.</li>
+          <li>Desarrollo de bots Copilot Studio integrados con Microsoft 365.</li>
+          <li>Gestión de automatización ARCF-3901 / ARCF-3903.</li>
+          <li>Gestión de Endpoint Central: imágenes, parches y reportes.</li>
+          <li>Desarrollo de aplicaciones internas con Power Apps.</li>
+          <li>Gestión de impresión corporativa con PaperCut.</li>
+        </ul>
+      </div>
+
+      <!-- AUXILIAR -->
+      <div class="mt-6 border-l-2 border-slate-200 pl-4">
+        <h3 class="font-semibold text-slate-900">Auxiliar IT</h3>
+        <span class="text-xs bg-slate-100 text-slate-700 px-2 py-1 rounded-full">2018 – 2021</span>
+        <ul class="mt-3 text-sm text-slate-700 space-y-1.5">
+          <li>Gestión de usuarios, soporte y documentación técnica.</li>
+        </ul>
+      </div>
+
+      <!-- PRACTICANTE -->
+      <div class="mt-6 border-l-2 border-slate-200 pl-4">
+        <h3 class="font-semibold text-slate-900">Practicante IT</h3>
+        <span class="text-xs bg-slate-100 text-slate-700 px-2 py-1 rounded-full">2017 – 2018</span>
+        <ul class="mt-3 text-sm text-slate-700 space-y-1.5">
+          <li>Alistamiento e instalación de equipos tecnológicos.</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+      <h2 class="text-xl font-semibold text-slate-900 flex items-center gap-2">
+        <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span> Proyectos Destacados
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-6 mt-6">
+
+        <!-- IA COPILOT -->
+        <div class="border border-slate-200 rounded-xl p-5 hover:border-sky-400 transition">
+          <h3 class="font-semibold text-slate-900 mb-1">Bot Corporativo Copilot Studio</h3>
+          <p class="text-sm text-slate-700">
+            Asistente conversacional conectado a Microsoft 365 y ServiceDesk Plus,
+            capaz de automatizar tareas, responder solicitudes y generar contenido.
+          </p>
+        </div>
+
+        <!-- ARCF -->
+        <div class="border border-slate-200 rounded-xl p-5 hover:border-sky-400 transition">
+          <h3 class="font-semibold text-slate-900 mb-1">Motor Inteligente ARCF-3901 / 3903</h3>
+          <p class="text-sm text-slate-700">
+            Automatización completa del ciclo de vida de usuarios usando Python,
+            ADManager, ServiceDesk y Graph API.
+          </p>
+        </div>
+
+        <!-- ENDPOINT CENTRAL -->
+        <div class="border border-slate-200 rounded-xl p-5 hover:border-sky-400 transition">
+          <h3 class="font-semibold text-slate-900 mb-1">Implementación de Endpoint Central</h3>
+          <p class="text-sm text-slate-700">
+            Estandarización del alistamiento de equipos mediante imágenes maestras,
+            automatización de parches y reporting avanzado.
+          </p>
+        </div>
+
+        <!-- PAPERCUT -->
+        <div class="border border-slate-200 rounded-xl p-5 hover:border-sky-400 transition">
+          <h3 class="font-semibold text-slate-900 mb-1">Gestión del Servidor de Impresión</h3>
+          <p class="text-sm text-slate-700">
+            Administración de PaperCut para optimizar costos y trazabilidad.
+          </p>
+        </div>
+
+        <!-- POWER APPS -->
+        <div class="border border-slate-200 rounded-xl p-5 hover:border-sky-400 transition">
+          <h3 class="font-semibold text-slate-900 mb-1">Aplicaciones Empresariales con Power Apps</h3>
+          <p class="text-sm text-slate-700">
+            Desarrollo de formularios, procesos internos y flujos automatizados.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+      <h2 class="text-xl font-semibold text-slate-900 flex items-center gap-2">
+        <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span> Habilidades
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-5 text-sm">
+
+        <div>
+          <h3 class="font-semibold text-slate-900 mb-2">
+            <i class="fa-solid fa-brain text-sky-500"></i> IA & Machine Learning
+          </h3>
+          <ul class="space-y-1 text-slate-700">
+            <li>Microsoft Copilot Studio</li>
+            <li>OpenAI API / GPT</li>
+            <li>IA para automatización</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-slate-900 mb-2">
+            <i class="fa-solid fa-gears text-sky-500"></i> Automatización
+          </h3>
+          <ul class="space-y-1 text-slate-700">
+            <li>Python empresarial</li>
+            <li>PowerShell avanzado</li>
+            <li>SDP API & ADManager API</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-slate-900 mb-2">
+            <i class="fa-solid fa-server text-sky-500"></i> Infraestructura
+          </h3>
+          <ul class="space-y-1 text-slate-700">
+            <li>Endpoint Central</li>
+            <li>Intune</li>
+            <li>PaperCut</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+
+<!-- FAQ (Preguntas Frecuentes) -->
+<section class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+  <h2 class="text-xl font-semibold flex items-center gap-2 text-slate-900">
+    <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span> Preguntas Frecuentes
+  </h2>
+
+  <ul class="mt-4 text-sm text-slate-700 space-y-4">
+
+    <li>
+      <strong>¿Qué tipo de proyectos puedes realizar?</strong><br>
+      Automatización ITSM, bots IA en Copilot Studio, integración con APIs, auditoría ISO,
+      flujos empresariales en Microsoft 365 y desarrollo de soluciones Power Platform.
+    </li>
+
+    <li>
+      <strong>¿Trabajas proyectos remotos?</strong><br>
+      Sí, completamente disponible para trabajo remoto e híbrido.
+    </li>
+
+    <li>
+      <strong>¿Puedes integrar IA dentro de procesos existentes?</strong><br>
+      Sí. Puedo conectar modelos GPT, Copilot Studio y flujos de IA en procesos de RRHH,
+      TI, seguridad, documentación, soporte y automatización administrativa.
+    </li>
+
+    <li>
+      <strong>¿Qué plataformas dominas para automatización?</strong><br>
+      Python, PowerShell, Power Automate, ServiceDesk Plus, ADManager, Graph API,
+      Copilot Studio y Power Apps.
+    </li>
+
+    <li>
+      <strong>¿Puedes crear bots personalizados para empresas?</strong><br>
+      Sí. Desarrollo bots corporativos con Copilot Studio integrados a Teams, ServiceDesk,
+      SharePoint, bases de datos y sistemas internos.
+    </li>
+
+    <li>
+      <strong>¿Puedes mejorar o modernizar flujos ITSM?</strong><br>
+      Sí, tengo experiencia en transformar flujos manuales en automatizaciones completas,
+      con validaciones inteligentes y documentación automática.
+    </li>
+
+    <li>
+      <strong>¿Realizas integraciones con bases de datos o APIs empresariales?</strong><br>
+      Sí. Puedo conectar soluciones con SQL Server, Graph API, ADManager REST API,
+      ServiceDesk API y aplicaciones internas.
+    </li>
+
+    <li>
+      <strong>¿Ofreces capacitación a equipos internos?</strong><br>
+      Sí. Capacito en uso de Power Apps, Power Automate, Copilot Studio, buenas prácticas
+      de automatización y seguridad de la información.
+    </li>
+
+    <li>
+      <strong>¿Puedes documentar procesos para auditorías ISO 27001?</strong><br>
+      Sí. He desarrollado documentación, trazabilidad y controles relacionados con
+      automatización, ciclo de vida de usuarios y procesos TI.
+    </li>
+
+  </ul>
+</section>
+
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="bg-white rounded-2xl shadow-sm p-6 md:p-8 mb-6">
+      <h2 class="text-xl font-semibold text-slate-900 flex items-center gap-2">
+        <span class="w-1.5 h-6 bg-sky-500 rounded-full"></span> Contacto
+      </h2>
+
+      <div class="mt-4 grid md:grid-cols-3 gap-4 text-sm">
+
+        <a href="mailto:roldeint.jimenez99@gmail.com"
+          class="p-4 bg-sky-500 text-white rounded-xl text-center hover:bg-sky-400 transition">
+          <i class="fa-solid fa-envelope mb-2"></i><br> Correo
+        </a>
+
+        <a href="https://wa.me/qr/PVQ5MKOPYIK3H1" target="_blank"
+          class="p-4 bg-emerald-500 text-white rounded-xl text-center hover:bg-emerald-400 transition">
+          <i class="fab fa-whatsapp mb-2"></i><br> WhatsApp
+        </a>
+
+        <a href="https://co.linkedin.com/in/roldeint-david-j-b6ba68146" target="_blank"
+          class="p-4 bg-slate-900 text-white rounded-xl text-center hover:bg-slate-700 transition">
+          <i class="fab fa-linkedin mb-2"></i><br> LinkedIn
+        </a>
+
+      </div>
+
+      <p class="mt-6 text-xs text-slate-500">
+        Disponible Lunes a Viernes – 8 AM a 6 PM · Bogotá, Colombia
+      </p>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="text-center text-xs text-slate-500 py-4">
+    © 2025 · Roldeint David Jiménez Osorio · Portafolio Profesional IA & Automatización
+  </footer>
+
+</body>
+</html>
